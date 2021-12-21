@@ -21,7 +21,7 @@ h2 {
 }
 
 main {
-    padding: 70px;
+    padding: 80px;
 }
 
 li {
@@ -61,6 +61,11 @@ img {
     
 }
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .text-right {
     text-align: right;
 }
@@ -84,13 +89,13 @@ img {
     color: darkcyan;
 }
 
-.contact {
+.contactme {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(247, 247, 250);
-    color: rosybrown;
+    color: rgb(161, 117, 117);
 }
 
 .myprojects {
