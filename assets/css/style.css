@@ -31,8 +31,40 @@ a {
     color: steelblue;
 }
 
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(210, 221, 241);
+}
 
+header {
+    position: fixed;
+    border-bottom: 10px solid cadetblue;
+}
+
+footer {
+    position: absolute;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    display: block;
+    
+}
 
 .text-right {
     text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
 }
