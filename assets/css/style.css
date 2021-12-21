@@ -3,6 +3,9 @@
     margin: 0%;
     padding: 0%;
 }
+p {
+    font-size: 20px;
+}
 
 body {
     position: relative;
@@ -46,6 +49,9 @@ header {
 
 footer {
     position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: cadetblue;
 }
 
 img {
@@ -68,3 +74,31 @@ img {
 .text-center {
     text-align: center;
 }
+
+.aboutme {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 233, 222);
+    color: darkcyan;
+}
+
+.contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(247, 247, 250);
+    color: rosybrown;
+}
+
+.myprojects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(236, 223, 205);
+    color: rgb(102, 141, 143);
+}
+
