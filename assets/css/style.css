@@ -103,7 +103,7 @@ footer {
     padding: 40px;
     height: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(247, 247, 250);
+    background-color: rgb(255, 248, 238);
     color: rgb(161, 117, 117);
 }
 
@@ -121,8 +121,19 @@ footer {
     width: 550px;
     height: 350px;
     border: 5px solid #dddddd;
-    background-color: #fff;
+    background-color: rgba(255, 249, 249, 0.911);
     float: right;
     margin-top: 10px;
     position: absolute;
+}
+
+.project1{
+    background-color: rgb(241, 229, 205);
+    color: steelblue;
+    text-decoration: underline;
+}
+.project2 {
+    background-color: rgb(236, 224, 208);
+    color: steelblue;
+    text-decoration: underline;
 }
